@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(44, 82, 52, 0.7);
+    color: rgba(156, 132, 18, 0.7);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(156, 132, 18, 0.7);
+    color: rgba(44, 82, 52, 0.7);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgba(44, 82, 52, 0.7);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    color: black;
+}
+
+.libros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.libro {
+    background-color: rgba(156, 132, 18, 0.7);
+    color: rgba(44, 82, 52, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(33.333% - 20px);
+}
+
+.libro h3 {
+    margin-top: 0;
+}
+
+.libro a, .libro button {
+    display: block;
+    background-color: rgba(44, 82, 52, 0.7);
+    color: rgba(156, 132, 18, 0.7);
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.libro a:hover, .libro button:hover {
+    background-color: rgba(44, 82, 52, 0.5);
+}
+
+form {
+    background-color: rgba(156, 132, 18, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    color: black; /* Cambia el color del texto dentro del formulario a negro */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: black; /* Cambia el color del texto de las etiquetas a negro */
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(44, 82, 52, 0.7);
+    border-radius: 5px;
+}
+
+form input {
+    color: black; /* Cambia el color del texto dentro de los inputs a negro */
+}
+
+form button {
+    background-color: rgba(44, 82, 52, 0.7);
+    color: rgba(156, 132, 18, 0.7);
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(44, 82, 52, 0.5);
+}
